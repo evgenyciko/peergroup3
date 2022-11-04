@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+body{
+    background:#DCDCDC;
+    margin-top:20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.card-box {
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.social-links li {
+    height: 35px;
+    width: 35px;
+    background: #000;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.img-thumbnail {
+    background-position: top;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.btn-rounded {
+    border-radius: 25px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.btn-rounded:hover {
+    border-radius: 25px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+h4 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.modal-content p, .modal-content li {
+    font-size: 12px;
+}
+
+.modal-content h4 {
+    font-size: 15px;
+}
+
+.modal-content h5 {
+    font-size: 17px;
+}
